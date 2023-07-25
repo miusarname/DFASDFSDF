@@ -1,0 +1,37 @@
+{
+  "name": "apifiltro",
+  "version": "1.0.0",
+  "description": "La HAE de Contabilidad Empresarial es una aplicación administrativa diseñada para ayudar a las empresas a gestionar sus registros contables, seguimiento de transacciones y generar informes financieros. Esta API proporciona funcionalidades para crear y administrar cuentas contables, registrar transacciones y generar balances.",
+  "main": "./controller/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --quiet index.js",
+    "tsc": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.4.2",
+    "cors": "^2.8.5",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.0",
+    "dotenv": "^16.3.1",
+    "express-session": "^1.17.3",
+    "jose": "^4.14.4",
+    "mysql2": "^3.5.2",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
+    "passport-google-oauth2": "^0.2.0",
+    "reflect-metadata": "^0.1.13",
+    "express": "^4.18.2",
+    "typescript": "^5.1.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/morgan": "^1.9.4",
+    "morgan": "^1.10.0",
+    "nodemon": "3.0.1"
+  }
+}
